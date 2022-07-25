@@ -1,0 +1,49 @@
+.core {
+  @apply inline-flex items-center border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0081ff] disabled:cursor-not-allowed disabled:text-[#989898] gap-2;
+}
+
+.label {
+  @apply -translate-y-px;
+}
+
+.xs {
+  @apply px-3 py-1.5 text-sm leading-4;
+}
+
+.xs svg {
+  @apply text-base;
+}
+
+.md {
+  @apply px-4 py-[0.4375rem] text-base;
+}
+
+.lg {
+  @apply px-6 py-[0.6875rem] text-lg;
+}
+
+.lg svg {
+  @apply text-2xl;
+}
+
+.primary {
+  @apply border-transparent text-white bg-blue-france-113-main hover:bg-blue-france-113-hover focus:bg-blue-france-113-active disabled:bg-[#e5e5e5];
+}
+
+.secondary {
+  @apply border-blue-france-113-main disabled:border-[#f3f3f3];
+}
+
+.tertiary {
+  @apply border-[#e9e9e9] hover:border-transparent focus:border-transparent disabled:border-[#f3f3f3];
+}
+
+.tertiary-no-border {
+  @apply border-transparent;
+}
+
+.secondary,
+.tertiary,
+.tertiary-no-border {
+  @apply text-blue-france-113-main bg-transparent hover:bg-[rgba(0,0,0,0.04)] focus:bg-[rgba(0,0,0,0.08)] disabled:bg-transparent;
+}

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-display: swap;
+  font-family: "Marianne";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/font/marianne-regular.woff2") format("woff2"),
+    url("../public/font/marianne-regular.woff") format("woff");
+}
+body {
+  @apply text-base
+		font-sans
+		font-normal
+		antialiased
+		min-h-screen
+		bg-grey-1000-main
+		text-grey-200-main;
+  text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+}
