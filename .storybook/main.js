@@ -2,14 +2,17 @@ const path = require("path")
 
 module.exports = {
   stories: [
-    "../components/**/story.mdx",
-    "../components/**/story.@(js|jsx|ts|tsx)",
+    "../components/**/*.stories.mdx",
+    "../components/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   addons: [
+    "@storybook/addon-a11y",
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "storybook-css-modules-preset",
+    "storybook-addon-pseudo-states",
+    "storybook-dark-mode",
   ],
   webpackFinal: async (config) => {
     config.module.rules.push({
