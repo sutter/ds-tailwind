@@ -5,6 +5,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,jsx,ts,tsx}",
     "./components/**/*.{js,jsx,ts,tsx}",
+    "./.storybook/**/*.{js,jsx,ts,tsx}",
     "public/**/*.html",
   ],
   theme: {

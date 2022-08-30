@@ -16,7 +16,7 @@ body {
 		font-normal
 		antialiased
 		min-h-screen
-		bg-grey-1000-main
+		bg-grey-1000-main dark:bg-grey-50-main
 		text-grey-200-main;
   text-size-adjust: 100%;
   text-rendering: optimizelegibility;

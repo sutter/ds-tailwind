@@ -27,7 +27,7 @@
 }
 
 .primary {
-  @apply border-transparent text-white bg-blue-france-113-main hover:bg-blue-france-113-hover focus:bg-blue-france-113-active disabled:bg-[#e5e5e5];
+  @apply border-transparent text-white bg-blue-france-113-main hover:bg-blue-france-113-hover focus:bg-blue-france-113-active disabled:bg-[#e5e5e5] dark:bg-[#8585fe] dark:text-[#020097];
 }
 
 .secondary {
